@@ -21,10 +21,11 @@
       
       <nav>
         <ul>
-          <li><a href="#" class="vertical">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">COMPANY</a></li>
           <li><a href="#">CONTACT</a></li>
-          <li><a href="#" class="last">SERVICES</a></li>
+          <li><a href="#" >SERVICES</a></li>
+          <li><a href="#" class="last">GALLERY</a></li>
         </ul>
       </nav>
       

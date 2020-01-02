@@ -1,1 +1,126 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto:300&display=swap");*{margin:0px;padding:0px;font-family:'Montserrat', sans-serif}.btn{text-decoration:none;background-color:#FF9900;padding:5px;font-size:1.5rem;width:50%;text-align:center;border-radius:25px;border:3px solid black;color:white;font-weight:bold;transition:1s}.btn:hover{border:3px solid #FF9900;background-color:black}.ml0{margin-left:0px !important;text-align:left}.orange{color:#FF9900}.green{color:#299761}.fb-blue{color:#3B5998}.tdn{text-decoration:none}.bold{font-weight:bold}.roboto-light{font-family:'Roboto', sans-serif;font-weight:lighter}.sub-text{font-size:20px;font-weight:normal}#lazy{transform:translateX(50%);opacity:0;transition:all 0.5s}.fade{transform:translateX(0) !important;opacity:1 !important;transition:all 0.5s !important}section.main{background-color:#F3F3F3;width:75vw;margin:0 auto}section.main h1{text-align:center;font-size:2.3rem;color:#FF9900}section.main h1 .underline{height:4px;border-radius:25px;width:180px;background-color:#FF9900;margin:5px auto}@media only screen and (max-width: 767px) and (min-width: 300px){section.main{width:100vw}}@media only screen and (min-width: 768px) and (max-width: 870px){section.main{width:100vw}}@media only screen and (min-width: 768px) and (max-width: 1024px){section.main{width:100vw}}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto:300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+  font-size: 1.7rem;
+  text-align: center;
+  width: 90%;
+  margin: 80px auto auto auto;
+}
+
+.small-text {
+  font-size: 1rem;
+}
+
+.box-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #FF9900;
+  padding: 5px;
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: center;
+  border-radius: 25px;
+  border: 3px solid black;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.btn:hover {
+  border: 3px solid #FF9900;
+  background-color: black;
+}
+
+.ml0 {
+  margin-left: 0px !important;
+  text-align: left;
+}
+
+.orange {
+  color: #FF9900;
+}
+
+.green {
+  color: #299761;
+}
+
+.fb-blue {
+  color: #3B5998;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.roboto-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.sub-text {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#lazy {
+  transform: translateX(50%);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.fade {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+  transition: all 0.5s !important;
+}
+
+section.main {
+  background-color: #F3F3F3;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+section.main h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: #FF9900;
+}
+
+section.main h1 .underline {
+  height: 4px;
+  border-radius: 25px;
+  width: 180px;
+  background-color: #FF9900;
+  margin: 5px auto;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+  section.main {
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 870px) {
+  section.main {
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  section.main {
+    width: 100vw;
+  }
+}

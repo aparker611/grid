@@ -1,1 +1,132 @@
-section.header{display:flex;justify-content:flex start}section.header img{max-width:250px;max-height:100px;height:100%;width:100%;padding:5px 5px 5px 25px}section.header div{position:relative;margin:0 auto;left:-125px}section.header div p{color:#FF9900;font-size:1.8rem;line-height:calc(1.8rem + 5px);font-weight:bold;margin-bottom:10px}section.header div a{display:block;margin:0 auto 5px auto}nav{background-color:#85BA6A;height:50px}nav ul{max-width:600px;height:50px;margin:0 auto;display:grid;grid-template-columns:repeat(4, 150px);list-style:none}nav ul li{margin:auto 5px auto 0px;text-align:center;border-left:1px solid black}nav ul li a{color:white;font-size:1.5rem;text-decoration:none;transition:1s}nav ul li a:hover{color:black}nav ul .last{border-right:1px solid black;padding-right:10px}@media only screen and (max-width: 767px) and (min-width: 300px){section.header{flex-direction:column;justify-content:center}section.header img{display:block;margin:auto}section.header div{left:unset !important}nav{height:auto}nav ul{display:grid;grid-template-columns:100%;height:auto;width:100%}nav ul li,nav ul .last{border:unset}}@media only screen and (min-width: 768px) and (max-width: 870px){section.header div{left:unset}nav{height:auto}nav ul{display:grid;grid-template-columns:100%;height:auto;width:100%}nav ul li,nav ul .last{border:unset}}@media only screen and (min-width: 768px) and (max-width: 1024px){section.header div{left:unset}nav{height:auto}nav ul{display:grid;grid-template-columns:100%;height:auto;width:100%}nav ul li,nav ul .last{border:unset}}
+section.header {
+  display: flex;
+  justify-content: flex start;
+}
+
+section.header img {
+  max-width: 250px;
+  max-height: 100px;
+  height: 100%;
+  width: 100%;
+  padding: 5px 5px 5px 25px;
+}
+
+section.header div {
+  position: relative;
+  margin: 0 auto;
+  left: -125px;
+}
+
+section.header div p {
+  color: #FF9900;
+  font-size: 1.8rem;
+  line-height: calc(1.8rem + 5px);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section.header div a {
+  display: block;
+  margin: 0 auto 5px auto;
+}
+
+nav {
+  background-color: #85BA6A;
+  height: 50px;
+}
+
+nav ul {
+  max-width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  list-style: none;
+}
+
+nav ul li {
+  margin: auto 5px auto 0px;
+  text-align: center;
+  border-left: 1px solid black;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 1s;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+nav ul .last {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+  section.header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  section.header img {
+    display: block;
+    margin: auto;
+  }
+  section.header div {
+    left: unset !important;
+  }
+  nav {
+    height: auto;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: 100%;
+    height: auto;
+    width: 100%;
+  }
+  nav ul li,
+  nav ul .last {
+    border: unset;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 870px) {
+  section.header div {
+    left: unset;
+  }
+  nav {
+    height: auto;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: 100%;
+    height: auto;
+    width: 100%;
+  }
+  nav ul li,
+  nav ul .last {
+    border: unset;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  section.header div {
+    left: unset;
+  }
+  nav {
+    height: auto;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: 100%;
+    height: auto;
+    width: 100%;
+  }
+  nav ul li,
+  nav ul .last {
+    border: unset;
+  }
+}

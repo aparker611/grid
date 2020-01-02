@@ -1,0 +1,74 @@
+section#service-list header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section#service-list header .small-text {
+  font-size: 1.2rem;
+}
+
+section#service-list section.information {
+  display: grid;
+  grid-template-areas: 'img content content';
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+section#service-list section.information img {
+  grid-area: img;
+  max-width: 100%;
+}
+
+section#service-list section.information .content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section#service-list section.information .content ul {
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+section#service-list #banner {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+section#service-list .information-content {
+  max-width: 60%;
+  margin: 30px auto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+  section#service-list section.information {
+    grid-template-areas: 'img' 'content' !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 870px) {
+  section#service-list section.information {
+    grid-template-areas: 'img' 'content' !important;
+  }
+  section#service-list section.information img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  section#service-list section.information {
+    grid-template-areas: 'img' 'content' !important;
+  }
+  section#service-list section.information img {
+    display: block;
+    margin: 0 auto;
+  }
+}

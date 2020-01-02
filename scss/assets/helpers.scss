@@ -4,7 +4,20 @@
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
   }
-  
+  .text {
+    font-size: 1.7rem;
+    text-align: center;
+    width: 90%;
+    margin: 80px auto auto auto;
+  }
+  .small-text {
+    font-size: 1rem;
+  }
+
+  .box-80 {
+    width: 80%;
+    margin: 0 auto;
+  }
   .btn {
         text-decoration: none;
         background-color: #FF9900;
