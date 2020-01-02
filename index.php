@@ -56,7 +56,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
+<script src="node_modules/intersection-observer/intersection-observer.js"></script>
 <script src="js/lazy.js"></script>
 
 </body>
