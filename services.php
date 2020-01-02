@@ -28,11 +28,11 @@
       
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">COMPANY</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#" >SERVICES</a></li>
-          <li><a href="#" class="last">GALLERY</a></li>
+          <li><a href="/index.php">HOME</a></li>
+          <li><a href="/index.php">COMPANY</a></li>
+          <li><a href="/contact.php">CONTACT</a></li>
+          <li><a href="/services.php" >SERVICES</a></li>
+          <li><a href="/gallery.php" class="last">GALLERY</a></li>
         </ul>
       </nav>
       
