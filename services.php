@@ -51,7 +51,7 @@
               <li>True experts within our field</li>
               <li>Beautiful gardens, excellent value!</li>
             </ul>
-            <a href="#" class="btn">Read more</a>
+            <a href="/services/gardening.php" class="btn">Read more</a>
           </div>
 
           <a data-fancybox="thumbnail" href="https://dummyimage.com/300x300/000/fff"><img src="https://dummyimage.com/300x300/000/fff" alt="" class="service-image"></a>
