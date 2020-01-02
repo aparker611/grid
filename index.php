@@ -28,7 +28,7 @@
         </ul>
       </nav>
       
-      <section class="main" id="wrapper">
+      <section class="main" id="company">
         <h1 class="title">Our Company<div class="underline"></div></h1>
         <div class="grid">
           
@@ -39,7 +39,7 @@
           <p class="grid-item text green roboto-light grid-right-mid">Our company continues to build on our reputation through expanding our portfolio of services. We work with commercial and private clients, architects and garden designers throughout Surrey and South London , with our broad range of services that we offer has expanded beyond what even our expectations were.</p>
           
           <p class="grid-item text orange roboto-light ml0 grid-left-bottom">Buildcraft Landscaping, in just a few years on, has doubled its permanent staff and during the peak seasons hired additional workers. Investing in specialist equipment and customised vehicles show that Buildcraft Landscaping is a true gardening force to contend with!</p>
-          <a data-fancybox="gallery" href="https://dummyimage.com/700x300/000/fff"><img src="https://dummyimage.com/700x300/000/fff" class="grid-item image grid-right-bottom" alt="Content Image"></a>
+          <a data-fancybox="gallery" href="https://dummyimage.com/700x300/000/fff"><img data-lazy="https://dummyimage.com/700x300/000/fff" id="lazy" class="grid-item image grid-right-bottom" alt="Content Image"></a>
         </div>
         <p class="text quote orange">We promise to provide you with the highest quality, comprehensive service
           that covers all aspects of landscape maintenance and construction. <p class="green"><b>Joseph</b> - <em>Company Owner</em></p></p>
@@ -57,6 +57,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
+<script src="js/lazy.js"></script>
 
 </body>
 </html>

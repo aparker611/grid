@@ -1,0 +1,168 @@
+//main
+section#company {
+
+    div.grid {
+      display: grid;
+      grid-template-areas: 
+      'gridlefttop gridrighttop'
+      'gridleftmid gridrightmid'
+      'gridleftbottom gridrightbottom';
+      margin: 0px 20px;
+      grid-row-gap: 150px;
+      
+      .text {
+        font-size: 1.7rem;
+        text-align: center;
+        width: 90%;
+        margin: 80px auto auto auto;
+      }
+      
+      .image {
+        max-width: 100%;
+      }
+      
+      .grid-left-top {
+          grid-area: gridlefttop;
+      }
+  
+      .grid-right-top {
+        grid-area: gridrighttop;
+        margin-top: 5rem;
+        margin-left: -2rem;
+        transform: rotate(-20deg);
+      }
+      
+      .grid-right-mid {
+          grid-area: gridrightmid;
+      }
+      .grid-left-mid {
+          grid-area: gridleftmid;
+        padding-left: 1rem;
+        transform: rotate(20deg);
+      }
+      
+      .grid-left-bottom {
+          grid-area: gridleftbottom;
+      }
+      .grid-right-bottom {
+          grid-area: gridrightbottom;
+        transform: rotate(-20deg) !important;
+        margin: 0px 0px 8rem -3rem;
+      }
+    }
+    
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 90%;
+        margin: 0px auto auto auto;
+    }
+  }
+  @media only screen and (max-width: 767px) and (min-width: 300px)  { 
+      section#company {
+          .grid {
+              background-color: #F3F3F3;
+              grid-template-areas: 
+              'gridlefttop'
+              'gridrighttop'
+              'gridrightmid'
+              'gridleftmid'
+              'gridleftbottom'
+              'gridrightbottom' !important;
+              grid-row-gap: 20px !important;
+              .text {
+                  margin: unset !important;
+                }
+              .grid-right-top {
+                  margin: 5rem !important;
+                  margin-right: unset !important;
+                  margin-left: 0px !important;
+       
+                }
+                
+                .grid-left-mid {
+                  margin: 5rem !important;
+                  margin-right: unset !important;
+                  margin-left: -1rem !important;
+                }
+                
+                .grid-right-bottom {
+                  margin: 5rem !important;
+                  margin-right: unset !important;
+                  margin-left: 0px !important;
+                }
+          }
+      }
+    
+   }
+  
+   @media only screen and (min-width: 768px) and (max-width: 870px)  { 
+  
+      section#company {
+         
+  
+          .grid {
+              background-color: #F3F3F3;
+              grid-template-areas: 
+              'gridlefttop'
+              'gridrighttop'
+              'gridrightmid'
+              'gridleftmid'
+              'gridleftbottom'
+              'gridrightbottom' !important;
+              grid-row-gap: 20px !important;
+              .text {
+                  margin: unset !important;
+                }
+              .grid-right-top {
+                  margin: 5.5rem !important;
+                  margin-left: 15px !important;
+                  margin-right: unset !important;
+                }
+                
+                .grid-left-mid {
+                  margin: 5.5rem !important;
+                  margin-left: unset !important;
+                  margin-right: 15px !important;
+                }
+                
+                .grid-right-bottom {
+                  margin: 7rem !important;
+                  margin-left: 15px !important;
+                  margin-right: unset !important;
+                }
+          }
+      }
+   }
+  
+   @media only screen and (min-width: 768px) and (max-width: 1024px)  { 
+  
+      section.main {
+  
+          .grid {
+              background-color: #F3F3F3;
+              grid-template-areas: 
+              'gridlefttop'
+              'gridrighttop'
+              'gridrightmid'
+              'gridleftmid'
+              'gridleftbottom'
+              'gridrightbottom' !important;
+              grid-row-gap: 20px !important;
+              .text {
+                  margin: unset !important;
+                }
+              .grid-right-top {
+                  margin: 5.5rem !important;
+                }
+                
+                .grid-left-mid {
+                  margin: 5.5rem !important;
+                }
+                
+                .grid-right-bottom {
+                  margin: 7rem !important;
+                }
+          }
+      }
+   }
