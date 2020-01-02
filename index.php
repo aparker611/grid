@@ -9,7 +9,7 @@
                media-src *;
                font-src *;
                connect-src *;
-               img-src 'self' data: content:;" >
+               img-src * data: content:;" >
 
     <title>Grid</title>
 
