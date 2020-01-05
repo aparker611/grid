@@ -1,11 +1,11 @@
 //Slides
 .slides {
     width: 100vw;
-    height: 60vh;
+    height: 60vh !important;
 
     #slide {
         width: 100vw;
-        height: 60vh;
+        height: 60vh !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
         background-position: center !important;
