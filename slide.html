@@ -2,19 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" 
-      content="default-src 'self' data: gap: 'unsafe-eval' ws: ;
-               style-src * 'unsafe-inline';
-               script-src *;
-               media-src *;
-               font-src *;
-               connect-src *;
-               img-src * data: content:;" >
+
 
     <title>Grid</title>
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <!-- Carousel -->
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
 <body>
 
@@ -36,30 +31,25 @@
           <li><a href="/gallery.php" class="last">GALLERY</a></li>
         </ul>
       </nav>
-      <style>
-        .slides {
-          width: 100vw;
-          height: 70vw;
-        }
 
-        .slides #slide {
-          width: 100%;
-          height: 100%;
-          background-repeat: no-repeat !important;
-          background-size: cover !important;
-          background-position: center !important;
-        }
-      </style>
-
-      <section class="slides">
+      <section class="slides owl-carousel owl-theme">
         <div id="slide" style="background: url(https://dummyimage.com/1200x700/000/fff);">
-          <h2 class="text orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum in pariatur amet dolor placeat atque iure, q</h2>
+          <div class="hero-box">
+          <h2 class="text orange mt0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum in pariatur amet dolor placeat atque iure, q</h2>
           <a href="#" class="btn">Contact us</a>
+          </div>
+        </div>
+
+        <div id="slide" style="background: url(https://dummyimage.com/1200x700/000/fff);">
+          <div class="hero-box">
+          <h2 class="text orange mt0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum in pariatur amet dolor placeat atque iure, q</h2>
+          <a href="#" class="btn">Contact us</a>
+          </div>
         </div>
       </section>
 
       <section class="main" id="home">
-
+s
       </section>
 
       <footer>
@@ -71,10 +61,23 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
+<script src="js/owlcarousel/owl.carousel.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="node_modules/intersection-observer/intersection-observer.js"></script>
 <script src="js/lazy.js"></script>
+
+<script>
+  $(document).ready(function() {
+    console.log('test');
+    
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      items: 1,
+      nav: true,
+    });
+  });
+</script>
 
 </body>
 </html>
