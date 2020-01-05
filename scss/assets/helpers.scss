@@ -21,6 +21,10 @@
   .mt0 {
     margin-top: 0px;
   }
+
+  .m15 {
+    margin: 15px;
+  }
   .btn {
         text-decoration: none;
         background-color: #FF9900;
@@ -69,8 +73,12 @@
     font-weight: lighter;
   }
 
+  .roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+
   .sub-text {
-    font-size: 20px;
+    font-size: 1.3em ;
     font-weight: normal;
   }
 

@@ -27,12 +27,12 @@
       </section>
       
       <nav>
-        <ul>
-          <li><a href="/index.php">HOME</a></li>
-          <li><a href="/index.php">COMPANY</a></li>
-          <li><a href="/contact.php">CONTACT</a></li>
-          <li><a href="/services.php" >SERVICES</a></li>
-          <li><a href="/gallery.php" class="last">GALLERY</a></li>
+      <ul>
+          <li><a href="/index.php">Home</a></li>
+          <li><a href="/company.php">Company</a></li>
+          <li><a href="/services.php">Services</a></li>
+          <li><a href="/gallery.php" >Gallery</a></li>
+          <li><a href="/contact.php" class="last">Contact</a></li>
         </ul>
       </nav>
       
