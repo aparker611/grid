@@ -685,7 +685,7 @@ section#contact .contact .center a {
   width: 100vw;
   height: 60vh !important;
 }
-.slides #slide {
+.slides .owl-item #slide {
   width: 100vw;
   height: 60vh !important;
   background-repeat: no-repeat !important;
@@ -695,7 +695,7 @@ section#contact .contact .center a {
   justify-content: center;
   align-items: center;
 }
-.slides #slide .hero-box {
+.slides .owl-item #slide .hero-box {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 50px;
   width: 60vw;
@@ -706,7 +706,7 @@ section#contact .contact .center a {
   flex-direction: column;
   justify-content: space-between;
 }
-.slides #slide .hero-box .btn {
+.slides .owl-item #slide .hero-box .btn {
   margin: 0 auto;
   font-size: 35px;
   width: 200px;
