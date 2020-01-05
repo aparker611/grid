@@ -51,6 +51,48 @@
       <section class="main" id="home">
       <h2 class="text orange m15">Our highly skilled landscapers will be able to make an assessment of your garden, then transform it into the ideal outdoor living space or landscape.</h2>
       <p class="sub-text roboto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reprehenderit similique tenetur provident, eius optio quia eligendi, nihil earum, sed veritatis id. Suscipit nesciunt omnis perferendis nemo accusantium veritatis eum.</p>
+
+        <section class="cards">
+    
+          <div class="card">
+            <div class="icon-container">
+              <i class="fas fa-shoe-prints"></i>
+            </div>
+            <ul>
+              <li>Garden Maintenance</li>
+              <li>Garden Clearance</li>
+              <li>Fertalising</li>
+              <li>Soil conditioning</li>
+              <li>Build water features</li>
+            </ul>
+          </div>
+    
+          <div class="card">
+            <div class="icon-container">
+              <i class="fas fa-shoe-prints"></i>
+            </div>
+            <ul>
+              <li>Garden Maintenance</li>
+              <li>Garden Clearance</li>
+              <li>Fertalising</li>
+              <li>Soil conditioning</li>
+              <li>Build water features</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="icon-container">
+              <i class="fas fa-shoe-prints"></i>
+            </div>
+            <ul>
+              <li>Garden Maintenance</li>
+              <li>Garden Clearance</li>
+              <li>Fertalising</li>
+              <li>Soil conditioning</li>
+              <li>Build water features</li>
+            </ul>
+          </div>
+        </section>
       </section>
 
       <footer>

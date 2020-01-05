@@ -764,5 +764,76 @@ section#home .sub-text {
   margin: 0 auto !important;
   text-align: center;
 }
+section#home section.cards {
+  margin: 10vh 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  justify-content: space-around;
+}
+section#home section.cards div.card {
+  background-color: #0F9665;
+  width: 100%;
+  height: 450px;
+  border-radius: 50px 50px 0px 0px;
+  border: 3px solid black;
+}
+section#home section.cards div.card .icon-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+section#home section.cards div.card .icon-container i {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -5vh;
+  background-color: #0F9665;
+  padding: 10px;
+  border-radius: 50px;
+  border: 3px solid black;
+  color: #FF9900;
+}
+section#home section.cards div.card ul {
+  width: 100%;
+  height: 80%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+section#home section.cards div.card ul li {
+  font-size: 2rem;
+  color: yellow;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+  section#home section.cards {
+    grid-template-columns: repeat(1, 90%);
+  }
+  section#home section.cards div.card {
+    margin: 5vh 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 870px) {
+  section#home section.cards {
+    grid-template-columns: 40% 40%;
+  }
+  section#home section.cards div.card {
+    margin: 5vh 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  section#home section.cards {
+    grid-template-columns: repeat(3, 25%);
+  }
+  section#home section.cards div.card {
+    margin: 5vh 0px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
