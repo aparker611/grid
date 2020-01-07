@@ -2,7 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self' data: gap: 'unsafe-eval' ws: ;
+               style-src * 'unsafe-inline';
+               script-src *;
+               media-src *;
+               font-src *;
+               connect-src *;
+               img-src * data: content:;" >
     <title>Grid</title>
 
     <link rel="stylesheet" href="css/index.css">
@@ -20,12 +27,12 @@
       </section>
       
       <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">COMPANY</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#" >SERVICES</a></li>
-          <li><a href="#" class="last">GALLERY</a></li>
+      <ul>
+          <li><a href="/index.php">Home</a></li>
+          <li><a href="/company.php">Company</a></li>
+          <li><a href="/services.php">Services</a></li>
+          <li><a href="/gallery.php" >Gallery</a></li>
+          <li><a href="/contact.php" class="last">Contact</a></li>
         </ul>
       </nav>
       

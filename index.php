@@ -2,19 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" 
-      content="default-src 'self data: gap: 'unsafe-eval ws: ;
-               style-src 'self' 'unsafe-inline';
-               script-src *;
-               media-src *;
-               font-src *;
-               connect-src *;
-               img-src 'self' data: content:;" >
+
 
     <title>Grid</title>
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <!-- Carousel -->
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
 <body>
 
@@ -28,30 +23,76 @@
       </section>
       
       <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">COMPANY</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#" >SERVICES</a></li>
-          <li><a href="#" class="last">GALLERY</a></li>
+      <ul>
+          <li><a href="/index.php">Home</a></li>
+          <li><a href="/company.php">Company</a></li>
+          <li><a href="/services.php">Services</a></li>
+          <li><a href="/gallery.php" >Gallery</a></li>
+          <li><a href="/contact.php" class="last">Contact</a></li>
         </ul>
       </nav>
-      
-      <section class="main" id="company">
-        <h1 class="title">Our Company<div class="underline"></div></h1>
-        <div class="grid">
-          
-          <p class="grid-item text bold orange grid-left-top">In 1990 Buildcraft Landscaping was first established as a two man business. It has grown rapidly via local advertising, recommendations and word of mouth.</p>
-          <a data-fancybox="gallery" href="https://dummyimage.com/700x300/000/fff"><img src="https://dummyimage.com/700x300/000/fff" alt="Content image" class="grid-item image grid-right-top"></a>
-          
-          <a data-fancybox="gallery" href="https://dummyimage.com/700x300/000/fff"><img src="https://dummyimage.com/700x300/000/fff" alt="Content image" class="grid-item image grid-left-mid"></a>
-          <p class="grid-item text green roboto-light grid-right-mid">Our company continues to build on our reputation through expanding our portfolio of services. We work with commercial and private clients, architects and garden designers throughout Surrey and South London , with our broad range of services that we offer has expanded beyond what even our expectations were.</p>
-          
-          <p class="grid-item text orange roboto-light ml0 grid-left-bottom">Buildcraft Landscaping, in just a few years on, has doubled its permanent staff and during the peak seasons hired additional workers. Investing in specialist equipment and customised vehicles show that Buildcraft Landscaping is a true gardening force to contend with!</p>
-          <a data-fancybox="gallery" href="https://dummyimage.com/700x300/000/fff"><img data-lazy="https://dummyimage.com/700x300/000/fff" id="lazy" class="grid-item image grid-right-bottom" alt="Content Image"></a>
+
+      <section class="slides owl-carousel owl-theme">
+        <div id="slide" class="h60" style="background: url(images/fff.png);">
+          <div class="hero-box">
+          <h2 class="text orange mt0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum in pariatur amet dolor placeat atque iure, q</h2>
+          <a href="#" class="btn">Contact us</a>
+          </div>
         </div>
-        <p class="text quote orange">We promise to provide you with the highest quality, comprehensive service
-          that covers all aspects of landscape maintenance and construction. <p class="green"><b>Joseph</b> - <em>Company Owner</em></p></p>
+
+        <div id="slide" class="h60" style="background: url(images/fff.png);">
+          <div class="hero-box">
+          <h2 class="text orange mt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum in pariatur amet dolor placeat atque iure, q</h2>
+          <a href="#" class="btn">Contact us</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main" id="home">
+      <h2 class="text orange m15">Our highly skilled landscapers will be able to make an assessment of your garden, then transform it into the ideal outdoor living space or landscape.</h2>
+      <p class="sub-text roboto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reprehenderit similique tenetur provident, eius optio quia eligendi, nihil earum, sed veritatis id. Suscipit nesciunt omnis perferendis nemo accusantium veritatis eum.</p>
+
+        <section class="cards">
+    
+          <div class="card">
+            <div class="icon-container">
+              <i class="fas fa-shoe-prints"></i>
+            </div>
+            <ul>
+              <li>Garden Maintenance</li>
+              <li>Garden Clearance</li>
+              <li>Fertalising</li>
+              <li>Soil conditioning</li>
+              <li>Build water features</li>
+            </ul>
+          </div>
+    
+          <div class="card">
+            <div class="icon-container">
+              <i class="fas fa-shoe-prints"></i>
+            </div>
+            <ul>
+              <li>Garden Maintenance</li>
+              <li>Garden Clearance</li>
+              <li>Fertalising</li>
+              <li>Soil conditioning</li>
+              <li>Build water features</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="icon-container">
+              <i class="fas fa-shoe-prints"></i>
+            </div>
+            <ul>
+              <li>Garden Maintenance</li>
+              <li>Garden Clearance</li>
+              <li>Fertalising</li>
+              <li>Soil conditioning</li>
+              <li>Build water features</li>
+            </ul>
+          </div>
+        </section>
       </section>
 
       <footer>
@@ -63,10 +104,23 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
+<script src="js/owlcarousel/owl.carousel.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="node_modules/intersection-observer/intersection-observer.js"></script>
 <script src="js/lazy.js"></script>
+
+<script>
+  $(document).ready(function() {
+    console.log('test');
+    
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      items: 1,
+      nav: true,
+    });
+  });
+</script>
 
 </body>
 </html>

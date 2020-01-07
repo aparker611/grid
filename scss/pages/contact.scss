@@ -65,20 +65,29 @@ section#contact {
             justify-content: center;
             grid-template-columns: repeat(1, 1fr) !important;
             grid-template-areas: unset !important;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            div.box {
+                text-align: center;
+            }
         }
         div.row {
             margin: unset !important;
+            width: 100vw !important;
+            .grid-2 {
+                grid-template-columns: repeat(1, 100%) !important;
+                        grid-column-gap: unset !important;
+            }
             input, textarea {
-                width: 300px !important;
-                margin: unset !important;
+                width: 90vw !important;
+                margin: 0px auto !important;
             }
         }
     }
 
-    .grid-2 {
-        grid-template-columns: repeat(1, 100%) !important;
-                grid-column-gap: unset !important;
-    }
 }
 
 //Tablet
