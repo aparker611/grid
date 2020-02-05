@@ -3,5 +3,4 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^https://boiling-wildwood-33318.herokuapp.com/ [NC]
 RewriteRule ^(.*)$ https://boiling-wildwood-33318.herokuapp.com//$1 [L,R=301]
 
-redirect permanent /index.php /
 redirect permanent /index.php?page=company /company?page=company
